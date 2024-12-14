@@ -38,7 +38,7 @@ export default [
 
     // Configuration for TypeScript files
     {
-        files: ['**/src/*.ts', '**/src/*.tsx'],
+        files: ['**/src/**/*.ts', '**/src/**/*.tsx'],
         plugins: {
             '@typescript-eslint': tsPlugin,
         },
